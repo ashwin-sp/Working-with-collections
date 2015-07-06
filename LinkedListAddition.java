@@ -37,10 +37,7 @@ public class LinkedListAddition
     sum1=sum1+(((Integer)(l1.get(i)))*(r));
     sum2=sum2+(((Integer)(l2.get(i)))*(r));
   }
-  for(i=0;i<m;i++)
-  { 
-   r*=10;
-  }
+
   
   int sum3=sum1+sum2;
   String answer = Integer.toString(sum3);
